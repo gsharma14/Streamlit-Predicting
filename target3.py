@@ -19,7 +19,7 @@ def app():
         Therapy_Area = st.selectbox("Therapy area" "(0=CNS, 1=Cardiovascular, 2=Dermatology, 3=Gastrointestinal, 4=Genetic, 5=Hematological, 6=Immunology, 7=Infectious-Disease, 8=Metabolic , 9=Musculoskeletal, 10=Oncology, 11=Ophthalmology, 12=Respiratory, 13=Unknown, 14=Urinary-System, 15=Women-Health)",["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"])
         Count_Trials = st.slider("Trial Count", 0, 100,1)
         News_Count = st.slider("Count of public news", 0, 100,1)
-        Publication_Count = st.slider("Count of publications", 0, 100,1)
+        Publication_Count = st.slider("Count of publications", 0, 2000,1)
         Grants = st.slider("Count of Grants provided", 0, 50,1)
         Alliances = st.slider("Count of Alliance Deals", 0, 50,1)
         Transactions = st.slider("Count of Various Transactions", 0, 50,1)
